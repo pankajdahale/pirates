@@ -18,6 +18,7 @@ namespace Pirates.API.Controllers
             {
                 new State {Name = "M", StateId = 1},
                 new State {Name = "G", StateId = 2},
+                new State {Name = "H", StateId = 2},
                 
             });
 
