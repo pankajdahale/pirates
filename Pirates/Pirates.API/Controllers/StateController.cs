@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Data;
+using Pirates.API.Model;
 
 namespace Pirates.API.Controllers
 {
@@ -28,16 +29,5 @@ namespace Pirates.API.Controllers
             return Ok();
         }
 
-    }
-
-    public class DetailVM
-    {
-        public string Name { get; set; }
-        public string VehicleNumber { get; set; }
-        public string MobileNumber { get; set; }
-        public string EmailAddress { get; set; }
-        public string TicketNumber { get; set; }
-        public string PolicePersonName { get; set; }
-        public int StateId { get; set; }
     }
 }
