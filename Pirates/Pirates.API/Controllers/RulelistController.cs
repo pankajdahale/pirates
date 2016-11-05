@@ -18,8 +18,9 @@ namespace Pirates.API.Controllers
             return Ok(new List<RuleDetails>()
             {
                 new RuleDetails { Id = 1, ListOfRules = "Driving without license", Pay = "100" },
-                new RuleDetails { Id = 2, ListOfRules = "Driving without carrying proper documents", Pay = "100" },
-
+                new RuleDetails { Id = 2, ListOfRules = "Driving without carrying proper documents", Pay = "200" },
+                new RuleDetails { Id = 3, ListOfRules = "Driving without carrying Insurance paper", Pay = "150" },
+                new RuleDetails { Id = 4, ListOfRules = "Driving without Helmet", Pay = "100" },
             });
 
         }
