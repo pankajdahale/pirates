@@ -202,12 +202,16 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\PaymentController.cs" />
+    <Compile Include="Controllers\PaymentSuccessController.cs" />
     <Compile Include="Controllers\RulelistController.cs" />
     <Compile Include="Model\DetailVM.cs" />
     <Compile Include="Controllers\StateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Model\payment.cs" />
+    <Compile Include="Model\PaymentSuccess.cs" />
     <Compile Include="Model\RuleDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -221,6 +225,8 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Details\" />
+    <Folder Include="Views\PaymentSuccess\" />
+    <Folder Include="Views\Payment\" />
     <Folder Include="Views\Rulelist\" />
   </ItemGroup>
   <PropertyGroup>
